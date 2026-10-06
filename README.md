@@ -101,3 +101,7 @@ NPCFactory.AfterCreateNpc
 如果只是根据已有条件创建 NPC，优先使用 VTools.CreateNpc 或 Next/VNext 的 CreateOneNpc。
 
 如果需要游戏运行中通过自定义 UI 输入参数创建 NPC，才需要额外开发自己的 Mod UI。
+
+## Next Data Mod 创建纯 NPC
+
+- [Next-NPC跟随系统.md](./Next-NPC跟随系统.md) —— 使用物品让 NPC 来/去切换。已验证玄影、素影、幽荧召返石三个实例。
