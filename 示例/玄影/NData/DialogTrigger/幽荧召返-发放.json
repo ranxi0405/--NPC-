@@ -1,0 +1,9 @@
+[
+  {
+    "id": "幽荧召返-发放",
+    "type": "时间变化",
+    "condition": "GetInt(\"幽荧召返已发放\")<=0",
+    "triggerEvent": "幽荧召返-发放",
+    "once": false
+  }
+]

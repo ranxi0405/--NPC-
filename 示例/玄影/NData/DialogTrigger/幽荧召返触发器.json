@@ -1,0 +1,16 @@
+[
+  {
+    "id": "幽荧召返-加入",
+    "type": "使用物品",
+    "condition": "itemID==9994913 && GetInt(\"幽荧召返状态\")<=0",
+    "triggerEvent": "幽荧召返-来",
+    "once": false
+  },
+  {
+    "id": "幽荧召返-离开",
+    "type": "使用物品",
+    "condition": "itemID==9994913 && GetInt(\"幽荧召返状态\")>=1",
+    "triggerEvent": "幽荧召返-去",
+    "once": false
+  }
+]

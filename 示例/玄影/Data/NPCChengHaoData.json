@@ -1,0 +1,15 @@
+{
+  "4200": {
+    "id": 4200,
+    "NPCType": 25,
+    "GongXian": 0,
+    "Level": [1, 15],
+    "IsOnly": 1,
+    "ChengHaoLv": 1,
+    "MaxLevel": 0,
+    "ChengHao": "玄衣客",
+    "ChengHaoType": 4200,
+    "Change": [],
+    "ChangeTo": []
+  }
+}

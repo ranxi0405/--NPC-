@@ -1,0 +1,9 @@
+[
+  {
+    "id": "素影-开局信物",
+    "type": "时间变化",
+    "condition": "After(1,1,1)",
+    "triggerEvent": "素影-信物发放",
+    "once": true
+  }
+]

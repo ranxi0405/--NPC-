@@ -105,3 +105,7 @@ NPCFactory.AfterCreateNpc
 ## Next Data Mod 创建纯 NPC
 
 - [Next-NPC跟随系统.md](./Next-NPC跟随系统.md) —— 使用物品让 NPC 来/去切换。已验证玄影、素影、幽荧召返石三个实例。
+
+## 完整示例
+
+- [示例/](./示例/) —— 玄影、素影两个已实测通过的完整 NPC 数据，可直接复制改造

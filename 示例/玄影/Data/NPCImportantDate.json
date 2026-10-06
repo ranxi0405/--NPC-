@@ -1,0 +1,23 @@
+{
+  "4200": {
+    "id": 4200,
+    "LiuPai": 8200,
+    "level": 15,
+    "sex": 2,
+    "zizhi": 200,
+    "wuxing": 200,
+    "nianling": 600,
+    "XingGe": 6,
+    "ChengHao": 4200,
+    "NPCTag": 31,
+    "ZhuJiTime": "",
+    "JinDanTime": "",
+    "YuanYingTime": "",
+    "HuaShengTime": "",
+    "DaShiXiong": 0,
+    "ZhangMeng": 0,
+    "ZhangLao": 0,
+    "EventValue": [],
+    "fuhao": ""
+  }
+}

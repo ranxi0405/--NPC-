@@ -1,0 +1,16 @@
+[
+  {
+    "id": "玄影跟随-切换",
+    "type": "使用物品",
+    "condition": "itemID==9994200 && GetInt(\"玄影跟随\")<=0",
+    "triggerEvent": "玄影跟随-用信物",
+    "once": false
+  },
+  {
+    "id": "玄影离开-切换",
+    "type": "使用物品",
+    "condition": "itemID==9994200 && GetInt(\"玄影跟随\")>=1",
+    "triggerEvent": "玄影离开-用信物",
+    "once": false
+  }
+]

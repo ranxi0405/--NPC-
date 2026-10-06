@@ -1,0 +1,16 @@
+[
+  {
+    "id": "素影跟随-切换",
+    "type": "使用物品",
+    "condition": "itemID==9994201 && GetInt(\"素影跟随\")<=0",
+    "triggerEvent": "素影跟随-用信物",
+    "once": false
+  },
+  {
+    "id": "素影离开-切换",
+    "type": "使用物品",
+    "condition": "itemID==9994201 && GetInt(\"素影跟随\")>=1",
+    "triggerEvent": "素影离开-用信物",
+    "once": false
+  }
+]

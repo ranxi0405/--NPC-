@@ -1,0 +1,11 @@
+[
+  {
+    "id": "玄影-信物发放",
+    "character": {},
+    "dialog": [
+      "AddItem*9994200#1#1",
+      "ShowTip*获得玄影信物#7"
+    ],
+    "option": []
+  }
+]

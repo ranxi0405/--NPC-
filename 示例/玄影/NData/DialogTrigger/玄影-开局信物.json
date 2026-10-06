@@ -1,0 +1,9 @@
+[
+  {
+    "id": "玄影-开局信物",
+    "type": "时间变化",
+    "condition": "After(1,1,1)",
+    "triggerEvent": "玄影-信物发放",
+    "once": true
+  }
+]
