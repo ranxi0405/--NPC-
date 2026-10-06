@@ -1,0 +1,16 @@
+[
+  {
+    "id": "模板NPC跟随-加入",
+    "type": "使用物品",
+    "condition": "itemID==9994300 && GetInt(\"模板NPC跟随\")<=0",
+    "triggerEvent": "模板NPC跟随-来",
+    "once": false
+  },
+  {
+    "id": "模板NPC跟随-离开",
+    "type": "使用物品",
+    "condition": "itemID==9994300 && GetInt(\"模板NPC跟随\")>=1",
+    "triggerEvent": "模板NPC跟随-去",
+    "once": false
+  }
+]

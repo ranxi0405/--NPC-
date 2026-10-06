@@ -1,0 +1,9 @@
+[
+  {
+    "id": "模板NPC-发放",
+    "type": "时间变化",
+    "condition": "GetInt(\"模板NPC已发放\")<=0",
+    "triggerEvent": "模板NPC-信物发放",
+    "once": false
+  }
+]

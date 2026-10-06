@@ -1,0 +1,33 @@
+[
+  {
+    "id": "模板NPC跟随-来",
+    "character": { "旁白": 0, "主角": 1, "模板NPC": 4300 },
+    "dialog": [
+      "旁白#信物微微发烫，一道身影无声出现在你面前。",
+      "模板NPC#……",
+      "SetNpcFollow*4300",
+      "SetInt*模板NPC跟随#1"
+    ],
+    "option": []
+  },
+  {
+    "id": "模板NPC跟随-去",
+    "character": { "旁白": 0, "主角": 1, "模板NPC": 4300 },
+    "dialog": [
+      "模板NPC#（停下脚步，回眸看你）",
+      "SetNpcRemoveFollow*4300",
+      "SetInt*模板NPC跟随#0"
+    ],
+    "option": []
+  },
+  {
+    "id": "模板NPC-信物发放",
+    "character": {},
+    "dialog": [
+      "SetInt*模板NPC已发放#1",
+      "AddItem*9994300#1#1",
+      "ShowTip*获得模板NPC信物#7"
+    ],
+    "option": []
+  }
+]
